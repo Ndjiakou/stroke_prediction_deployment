@@ -1,268 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROJET TUTEURE NGUIAMBA ET NDJIAKOU</title>
+	<html>
+		<head>
+			<title>PROJET NDJIAKOU ET NGUIAMBA</title>
+			<meta charset="utf-8"> <!--pour l'encodage (mettre des accents et tout)-->
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+		</head>
+		<body  >
+			<!-- <div class="background"> </div> -->
+			<!-- haut de page -->
+		 <header>
+		 	<!-- menu de navigation -->
+		 	<div class="leftheader" >
+		 		<img src="img/lg.png" width="150px" >
+		 		<nav class="menu">
+					<ul>
+						<li class="bouton">
+							<a href="">Accueil </a>
+								
+						</li>
+						<li class="bouton">
+							<a href="templates/index.html">Formulaire </a>
+								
+						</li>
+						<li class= "bouton">
+							<a href="#footer"> Contacts</a>		
+						</li>
+					</ul>
+				</nav>
+			</div>
 
-    <style>
-        body
-        {
-            
-           -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-          color: aliceblue;
-          font-size: large;
-          /*margin-top: 40px;
-          margin-left: 50px;*/
-        }
-
-.box 
-{
-width: 500px;
-padding: 40px;
-margin: 30px;
-padding-top: 30px;
-padding-right: 40px;
-margin-left: 70px;
-margin-top: 40px;
-opacity: 0.5;
-background-color: rgb(48, 46, 46);
-border-radius: 150px;
-color: rgb(255, 255, 255);
-font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-p
-{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: oblique;
-    font-size: medium;
-    font-size: large;
-}
-
-label
-{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: oblique;
-    font-size: medium;
-    font-size: large;
-}
-
-input
-{
-    border-radius: 15px;
-    color: rgb(0, 0, 0);
-    text-align:center;
-    align-items:flex-end;
-    margin-left: 50px;
-    font-size:medium;
-}
-
-#output
-{
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 8px;
-    width: 200px;
-    font-weight: bold;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-}
+		 </header> 
+		
+			
+			<div class="body" > <!-- la balise div c'est pour mettre des blocs -->
+				<!-- <img src="img/hands.jpg" class="background"> -->
+			
+				<h1>BIENVENUE SUR NOTRE APPLICATION WEB!</h1>
+				<p><h2>NDnNG</h2></p>
+				Pouvoir evaluer la probalite d'avoir un AVC permet d'eviter beaucoup de surprises!
+				<p>Cliquer ici pour remplir le formulaire de vos parametres</p>
+			
+						<a href="templates/index.html">Formulaire </a>	
+						<!--<div class="background"></div>-->
+				
+			</div>
+			<div id="apropos">
+				<p>
+					<span>A propos</span>
+					Le 29 octobre, c’est la Journée mondiale de l’accident vasculaire cérébral (AVC). Cette pathologie grave et redoutable touche 1 personne toutes les 5 secondes dans le monde selon l’OMS et la World Stroke Organisation. C’est pourquoi l’OMS n’hésite pas à parler de Pandémie et table sur une augmentation progressive de l’incidence des AVC dans le monde passant de 16 millions de cas en 2005 à près de 23 millions en 2030[1].L’Intelligence Artificielle (IA) peut potentiellement améliorer la détection des lésions, réduire les risques, voire améliorer la qualité de vie des patients ayant subi un AVC. Heureusement, il existe déjà des mesures technologiques simples, qui nous permettent d’anticiper, traiter, et même éviter les conséquences de cette affection dramatique, handicapante et mortelle. 
 
 
-nav{
-    top: 0;
-    display: flex;
-    justify-content: flex-end;
-    /*border: 2px solid black;*/
-    width: 800px;
-}
+				</p>
+				<img src="img/ischemic.jpg" id="image">
+			</div>
 
-nav ul{
-    display: flex;
-    margin-right: 50px;
-}
-.bouton{
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 50px;
-    color: black;
-    font-size: 5px;
-    border-radius: 50px;
-    margin-top: 70px;
-    transition:0.3s all;
-}
+			
+			<!-- pied de page -->
+			 <footer > 
+			 	
+			 	<p><h2 id="footer">Nous contacter :</h2>
+				<ul> 
+					<li>
+					Email: tndjiakou@gmail.com
+					</li>
+  					<li>
+  					Telephone:694164972
+  					</li>
+  				</ul>
+			</p>
+			<p>
+			 		Copyright NDJIAKOU ET NGUIAMBA projet tuteure 2022-All right reserved
+			 	</p>
+			
 
-nav.menu ul li a {
-    color: black;
-    text-decoration: none;
-    background: none;
-    font-size: 17px;
-}
-
-header
-{
-    /*border: 2px solid black;*/
-    background-color: rgba(150,150,150,0.6);
-}
-.leftheader{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-
-    </style>
-
-</head>
-
-<body>
-
-<header>
-    <div class="leftheader" >
-        <img src="../img/lg.png" width="150px" >
-        <nav class="menu">
-            <ul>
-                <li class="bouton">
-                    <a href="../index.html">Accueil </a>
-                        
-                </li>
-                <li class="bouton">
-                    <a href="">Formulaire </a>
-                        
-                </li>
-                <li class= "bouton">
-                    <a href="#footer"> Contacts</a>        
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-    
-
-    
-<center>
-    <p style=" font-weight: bold; font-size: large; padding-left: 1200px;">Developed By NDJIAKOU_NGUIAMBA</p>
-</Center>
-
-    
-        <div class="box">
-            <center>
-        <h1> patient details </h1> 
-    <form action="prediction_result" method="POST">
-
-
-        <label for="gender" style="padding-right: 100px;">Gender : </label>
-        <select name="gender" id="gender">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            <option value="Other">others</option>
-          </select>
-
-        
-        <p>Enter Age :
-        <input type="number" id="age" name="age" min="1" max = "100" style="width: 100px;" placeholder=" e.g 1-100">
-        </p>
-
-
-        <label for="hypertension" style="padding-right: 100px;">Hypertension : </label>
-        <select name="hypertension" id="hypertension">
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-          </select>
-
-        <br><br>
-
-
-          <label for="heart_disease" style="padding-right: 100px;">Any Heart Diseases : </label>
-          <select name="heart_disease" id="heart_disease">
-              <option value="Yes">Yes</option>
-              <option value="No">No</option>
-            </select>
-
-        <br><br>
-
-
-        <label for="ever_married" style="padding-right: 100px;"> HAVE You ever been  Married : </label>
-            <select name="ever_married" id="ever_married">
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-            </select>
-
-        <br><br>
-
-        <label for="work_type" style="padding-right: 100px;">work type : </label>
-        <select name="work_type" id="work_type">
-            <option value="work_type_Govt_job">government job</option>
-            <option value="work_type_Never_worked">never worked</option>
-            <option value="work_type_Private">private</option>
-            <option value="work_type_Self_employed">self employed</option>
-            <option value="work_type_children">student</option>
-            </select>
-        <br><br>
-    
-
-        <label for="Residence_type" style="padding-right: 100px;"> where do you live : </label>
-        <select name="Residence_type" id="Residence_type">
-                <option value="Urban">Urban </option>
-                <option value="Rual">Rural </option>
-            </select>
-
-        <br>
-
-        <p>Enter Glucose Levels :
-        <input type="number" id="avg_glucose_level" name="avg_glucose_level" min="80" max="400" style="width: 150px;" placeholder=" e.g 80-300"></p>
-
-        <p>Enter Your BMI :
-        <input type="number" id="bmi" name="bmi" min="16" step="0.1" style="width: 150px;" placeholder="e.g 18-45"></p>
-
-        <label for="smoking" style="padding-right: 100px;">Smoking Status : </label>
-        <select name="smoking" id="smoking">
-            <option value="smoking_status_Unknown">Unknown</option>
-            <option value="smoking_status_never_smoked">never smoked</option>
-            <option value="smoking_status_smokes">smokes</option>
-            <option value="smoking_status_formerly_smoked">formerly smoked</option>
-            </select>
-        <br><br>
-
-        <input type="submit" value="SUBMIT" id="prediction_result"> 
-
-        {% for message in get_flashed_messages()%}
-        <p style="font-size: 18px;"> {{message}} </p>
-        {% endfor %}
-
-    </form>
-</center>
-</div>
-
-<!-- pied de page -->
-     <footer > 
-        
-        <p><h2 id="footer">Nous contacter :</h2>
-        <ul> 
-            <li>
-            Email: pndjiakou@gmail.com
-            </li>
-            <li>
-            Telephone:694164972
-            </li>
-        </ul>
-    </p>
-    <p>
-            Copyright NDJIAKOU ET NGUIAMBA projet tuteure 2022-All right reserved
-        </p>
-    
-
-     </footer>
-
-
-
-</body>
-</html>
+			 </footer>
+		</body>
+	</html>
+	
