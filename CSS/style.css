@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
+nav{
+	top: 0;
+	display: flex;
+	justify-content: flex-end;
+	/*border: 2px solid black;*/
+	width: 800px;
+}
+
+nav ul{
+	display: flex;
+	margin-right: 50px;
+}
+
+/*ul,li{
+	border: 2px solid black;
+}*/
+
+.bouton{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 50px;
+	color: black;
+	font-size: 5px;
+	border-radius: 50px;
+	margin-top: 70px;
+	transition:0.3s all;
+}
+nav.menu ul li a {
+	color: black;
+	text-decoration: none;
+	background: none;
+	font-size: 17px;
+}
+.bouton:hover 
+{
+	/*-webkit-text-stroke:2px black;*/
+	color: white;
+}
+header
+{
+	/*border: 2px solid black;*/
+	background-color: rgba(150,150,150,0.6);
+}
+body {
+	background-color:#7FFFD4  ;
+
+}
+.body {
+	height: 400px;
+	text-align: center;
+	background-image: url("../img/parameters.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	align-items: center;
+	justify-content: center;
+}
+.body a{
+text-decoration: none;
+display: inline-block;
+color: black;
+font-size: 24px;
+border: 2px solid white;
+padding: 14px 70px;
+border-radius: 50px;
+margin-top: 20px;
+}
+footer
+{
+	background-color: #FFF8DC;
+}
+.background{
+	background-image: url('./img/hands.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	/*z-index: -1;
+	position: absolute;
+	right:0;
+	bottom: 0;*/
+	/*z-index: -1;pour mettre l'image en fond*/
+}
+/*@media (min-aspect-ratio: 16/9){
+
+.background{
+width: 100%;
+height: auto;
+}
+}
+@media (min-aspect-ratio: 16/9){
+
+.background{
+width:auto ;
+height:100% ;
+}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}*/
+
+.leftheader{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+#apropos{
+	display: flex;
+	justify-content: center;
+}
+
+span{
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+}
+
+#apropos p{
+	width: 35%;
+	text-align: justify;
+	padding: 30px;
+	line-height: 25px;
+}
